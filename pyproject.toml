@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "AliChange 24/7"
+version = "0.1.0"
+description = ""
+authors = ["amaym0n <loco.skitls@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.3.0"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
